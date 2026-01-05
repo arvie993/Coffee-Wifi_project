@@ -200,7 +200,7 @@ requests==2.31.0
 
 ## 👤 Author
 
-**Arvie Sridharan**
+**Aravind Sridharan**
 - GitHub: [@arvie993](https://github.com/arvie993)
 
 ## 📄 License
