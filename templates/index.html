@@ -8,7 +8,14 @@
   <p class="lead">Want to work in a cafe but need power and wifi?</p>
   <hr class="my-4">
   <p>You've found the right place! Checkout my collection of cafes with data on power socket availability, wifi speed and coffee quality.</p>
-  <a class="btn btn-warning btn-lg" href="{{ url_for('cafes') }}" role="button">Show Me!</a>
+  <div class="d-flex justify-content-center gap-3 flex-wrap">
+    <a class="btn btn-warning btn-lg" href="{{ url_for('cafes') }}" role="button">
+      <i class="bi bi-list"></i> Show Me Our Collection
+    </a>
+    <a class="btn btn-outline-light btn-lg" href="{{ url_for('search_cafes') }}" role="button">
+      <i class="bi bi-search"></i> Find Cafes Near Me
+    </a>
+  </div>
 </div>
     </div>
 
